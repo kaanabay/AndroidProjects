@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kur Çevirici</string>
+    <string name="action_settings">Settings</string>
+    <string name="basecur">Kur</string>
+    <string name="destcur">Çevrilecek</string>
+    <string name="welcome">Hoşgeldiniz</string>
+</resources>
