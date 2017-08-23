@@ -4,7 +4,7 @@ A basic game where players are expected to find the arithmetic operation (+,-,*,
 
 The two operands and the result are presented. The operator is replaced by a question mark which you are expected to fill by clicking the buttons.
 
-![SS](/ss.png)
+![SS](ss.png)
 
 A correct answer is 1 point where a wrong answer cancels 2. The net score will be presented at the bottom.
 
