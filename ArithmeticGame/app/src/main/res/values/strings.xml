@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ArithmeticGame</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="add">+</string>
+    <string name="extract">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+</resources>
