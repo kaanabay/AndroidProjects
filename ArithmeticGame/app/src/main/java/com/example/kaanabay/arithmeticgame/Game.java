@@ -52,8 +52,9 @@ final class Game {
     private int countTrue = 0;
     private int countFalse = 0;
     private int countQuestion = 0;
-    ArrayList<Question> questions = new ArrayList<Question>();
+    private ArrayList<Question> questions = new ArrayList<>();
 
+    Game() {}
     Game(int n) {
         fillRandomNQuestions(n);
     }
@@ -98,7 +99,6 @@ final class Game {
             if(op == divide) {
                 res = i1;
                 i1 *= i2;
-                //questions.add(new Question(result,i2,divide,i1));
             } else {
                 switch (op) {
                     case add:

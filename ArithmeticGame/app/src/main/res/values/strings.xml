@@ -7,4 +7,5 @@
     <string name="extract">-</string>
     <string name="multiply">*</string>
     <string name="divide">/</string>
+    <string name="score">SCORE: 0</string>
 </resources>

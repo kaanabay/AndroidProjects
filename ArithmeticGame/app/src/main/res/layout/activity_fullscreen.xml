@@ -16,9 +16,8 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="@string/dummy_content"
         android:textColor="#33b5e5"
-        android:textSize="50sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <!-- This FrameLayout insets its children based on system windows using
@@ -46,14 +45,6 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp">
-
-            <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
 
         </LinearLayout>
 
@@ -145,14 +136,14 @@
 
         <TextView
             android:id="@+id/textAnswerCount"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="352dp"
+            android:layout_height="48dp"
             android:layout_marginBottom="2dp"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
             android:fontFamily="casual"
-            android:text="True: 0 - False: 0"
+            android:text="@string/score"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="35sp"
@@ -166,6 +157,31 @@
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintRight_creator="1"
             tools:layout_constraintTop_creator="1" />
+
+        <TextView
+            android:id="@+id/secondsRemaining"
+            android:layout_width="171dp"
+            android:layout_height="50dp"
+            android:fontFamily="casual"
+            android:text="Seconds: "
+            android:textSize="25sp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textAnswerCount" />
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="164dp"
+            android:layout_height="43dp"
+            android:fontFamily="casual"
+            android:text="Start"
+            app:layout_constraintRight_toLeftOf="@+id/secondsRemaining"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textAnswerCount" />
 
     </android.support.constraint.ConstraintLayout>
 

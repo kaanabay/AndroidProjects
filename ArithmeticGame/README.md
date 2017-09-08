@@ -9,3 +9,7 @@ The two operands and the result are presented. The operator is replaced by a que
 A correct answer is 1 point where a wrong answer cancels 2. The net score will be presented at the bottom.
 
 I know that with this version the game is neither enjoyable nor competitive. I will try and implement a timer in v2. :)
+
+--- 8.9.17 Update ---
+- Added timer as promised. (Only one option of 30 seconds for now)
+- Some improvements in UI.
